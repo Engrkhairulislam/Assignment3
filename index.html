@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Barn house commercial website</title>
+    <meta name="description" content="commercial website of Barn House firm " />
+    <!-- google font CDN add -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- tailwind css CDN  -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- fontawesome icon library CDN -->
+    <head>
+      <link
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        rel="stylesheet"
+      />
+    </head>
+
+    <script
+      src="https://10fbac28f2.fontawesome.com/10fbac28f2.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- custom font add  -->
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ["Inter", "sans-serif"],
+            },
+            screens: {
+              xs: "375px", // Custom breakpoint for extra small devices (iPhone 13 Mini)
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body>
+    <!-- *header section start -->
+
+    <!-- nav bar section start -->
+    <section
+      class="max-w-screen-xl mx-auto flex items-center justify-between bg-gradient-to-t from-white to-gray-200 px-4"
+    >
+      <!-- nav bar section -->
+      <div class="py-6 w-full mx-auto flex justify-between items-center">
+        <!-- icon & brand name -->
+        <div class="flex items-center gap-2">
+          <div
+            class="bg-green-500 w-8 h-8 rounded-full items-center flex justify-center"
+          >
+            <i class="fa-solid fa-arrow-right -rotate-45 text-black"></i>
+          </div>
+          <h1 class="font-extrabold text-2xl text-black">Rinterio</h1>
+        </div>
+
+        <!-- nav link -->
+        <!-- menu Icon for small device -->
+        <div
+          class="flex items-center justify-center lg:hidden md:hidden xl:hidden 2xl:hidden bg-white w-5 h-5 p-5 rounded-full"
+        >
+          <i class="fa-solid fa-bars"></i>
+        </div>
+
+        <div class="hidden lg:flex 2xl:flex xl:flex">
+          <ul class="flex items-center gap-8">
+            <li>
+              <a
+                class="font-extrabold text-base text-gray-600 mr-12"
+                href="http://"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Home</a
+              >
+            </li>
+            <li>
+              <a
+                class="text-gray-500"
+                href="http://"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Services</a
+              >
+            </li>
+            <li>
+              <a
+                class="text-gray-500"
+                href="http://"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Portfolio</a
+              >
+            </li>
+            <li>
+              <a
+                class="text-gray-500"
+                href="http://"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Blogs</a
+              >
+            </li>
+            <li>
+              <a
+                class="text-gray-500"
+                href="http://"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Contact Us</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <!-- nav bar right section -->
+
+        <div class="flex text-center gap-4 xs:hidden sm:hidden md:flex">
+          <!-- search bar -->
+          <div
+            class="flex items-center justify-center w-12 h-12 bg-white border rounded-full"
+          >
+            <i class="fa-solid fa-magnifying-glass text-gray-500"></i>
+          </div>
+          <!-- cart icon -->
+
+          <div
+            class="flex items-center justify-center w-12 h-12 bg-white border rounded-full"
+          >
+            <i class="fa-solid fa-cart-shopping text-gray-500"></i>
+          </div>
+          <!-- button section -->
+
+          <div class="flex bg-green-400 py-3 px-4 rounded-2xl gap-2">
+            <button class="font-extrabold text-xl">Book Consult</button>
+            <div
+              class="bg-black w-8 h-8 rounded-full items-center flex justify-center"
+            >
+              <i class="fa-solid fa-arrow-right -rotate-45 text-white"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- * nav bar section send -->
+
+    <!-- banner section start -->
+    <section class="max-w-screen-xl pb-20 mx-auto hidden">
+      <div class="text-center">
+        <div class="w-9/12/12 mb-4 mx-auto flex justify-center">
+          <img src="./assets/banner.png" alt="" srcset="" />
+        </div>
+        <h1 class="font-extrabold text-6xl mx-7">
+          A barn house of this design has a striking appearance
+        </h1>
+        <p class="font-medium text-base text-gray-500 mx-20">
+          The barn house captivates with its blend of rustic charm and modern
+          sophistication, featuring weathered wood, sleek metal accents, and
+          large windows that flood the space with natural light.
+        </p>
+      </div>
+    </section>
+    <!-- banner section end -->
+    <!-- *header section end -->
+
+    <!-- main section start -->
+    <main></main>
+  </body>
+</html>
